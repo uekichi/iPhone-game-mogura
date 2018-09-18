@@ -19,6 +19,9 @@
 		94A49E38214E8D0A00F99356 /* mog3.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A49E35214E8D0A00F99356 /* mog3.png */; };
 		94A49E39214E8D0A00F99356 /* mog1.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A49E36214E8D0A00F99356 /* mog1.png */; };
 		94A49E3A214E8D0A00F99356 /* mog2.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A49E37214E8D0A00F99356 /* mog2.png */; };
+		94A6015C2150867800216224 /* TitleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A6015B2150867800216224 /* TitleScene.swift */; };
+		94A6016021508FA900216224 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A6015F21508FA900216224 /* GameOverScene.swift */; };
+		94A601622150935B00216224 /* GameSKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A601612150935B00216224 /* GameSKView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		94A49E35214E8D0A00F99356 /* mog3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mog3.png; sourceTree = "<group>"; };
 		94A49E36214E8D0A00F99356 /* mog1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mog1.png; sourceTree = "<group>"; };
 		94A49E37214E8D0A00F99356 /* mog2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mog2.png; sourceTree = "<group>"; };
+		94A6015B2150867800216224 /* TitleScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleScene.swift; sourceTree = "<group>"; };
+		94A6015F21508FA900216224 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		94A601612150935B00216224 /* GameSKView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSKView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,11 +96,14 @@
 			isa = PBXGroup;
 			children = (
 				9459B4A1214D499200398E22 /* AppDelegate.swift */,
-				9459B4A3214D499200398E22 /* GameScene.sks */,
-				9459B4A5214D499200398E22 /* Actions.sks */,
+				94A6015B2150867800216224 /* TitleScene.swift */,
 				9459B4A7214D499200398E22 /* GameScene.swift */,
+				94A601612150935B00216224 /* GameSKView.swift */,
+				94A6015F21508FA900216224 /* GameOverScene.swift */,
 				9459B4A9214D499200398E22 /* GameViewController.swift */,
 				9459B4AB214D499200398E22 /* Main.storyboard */,
+				9459B4A5214D499200398E22 /* Actions.sks */,
+				9459B4A3214D499200398E22 /* GameScene.sks */,
 				94A49E36214E8D0A00F99356 /* mog1.png */,
 				94A49E37214E8D0A00F99356 /* mog2.png */,
 				94A49E35214E8D0A00F99356 /* mog3.png */,
@@ -220,9 +229,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94A6016021508FA900216224 /* GameOverScene.swift in Sources */,
 				9459B4A8214D499200398E22 /* GameScene.swift in Sources */,
 				9459B4AA214D499200398E22 /* GameViewController.swift in Sources */,
 				9459B4A2214D499200398E22 /* AppDelegate.swift in Sources */,
+				94A601622150935B00216224 /* GameSKView.swift in Sources */,
+				94A6015C2150867800216224 /* TitleScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

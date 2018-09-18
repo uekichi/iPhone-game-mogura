@@ -70,7 +70,14 @@ class GameScene: SKScene {
     @objc func timerUpdate() {
         timeCount -= 1                            // 残り秒数を 1 減らす
         timeLabel.text = "Time:\(timeCount)"    // 残り秒数を表示
-        if timeCount < 1 { //TODO 0になったらゲームオーバー
+        if timeCount < 1 {
+            myTimer.invalidate()
+            let scene = GameOverScene(size: self.size)
+            let skView = self.view as! GameSKView
+            skView.score = score
+            scene.scaleMode = SKSceneScaleMode.aspectFill
+            skView.presentScene(scene)
+            
         }
     }
 

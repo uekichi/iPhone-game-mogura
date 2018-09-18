@@ -14,8 +14,8 @@ class GameViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        let scene = GameScene(size:CGSize(width: 750, height: 1334))
+        
+        let scene = TitleScene(size:CGSize(width: 750, height: 1334))
         let skView = self.view as! SKView
         scene.scaleMode = .aspectFit
         skView.presentScene(scene)
